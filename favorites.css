@@ -1,0 +1,130 @@
+body{
+    overflow-x: hidden;
+    background-color:#030303;
+    overflow-y: hidden;
+    
+}
+nav{
+    padding-left: 15%;
+    display: inline-flex;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Y-andermo';
+}
+nav p{
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.wrapper{
+    padding-bottom: 2%;
+    transform: translate(2%, 150%);
+}
+.wrapper .box1{
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    background-color:#212a33;
+    opacity: 25%;
+}
+.wrapper .box1 img{
+    object-fit: cover;
+    width: 90px;
+    margin-left: -5px;
+}
+/* Wrapper 2*/
+.wrapper .box2{
+    width: 80px;
+    height: 80px;
+    background-color: #27333f;
+    border-radius: 15px;
+    opacity: 25%;
+}
+.wrapper .box2 img{
+    object-fit: cover;
+    width: 80px;
+}
+.wrapper .box2 .tooltip2{
+    visibility: hidden;
+    width: 120px;
+    background-color: #27333f ;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0; 
+    /* Position the tooltip */
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.wrapper .box2 .img:hover .tooltip{
+    visibility: visible;
+  }
+
+/* Wrapper 3*/
+
+.wrapper .box3{
+    width: 80px;
+    height: 80px;
+    background-color: #27333f;
+    border-radius: 15px;
+    
+}
+ .wrapper .box3 img {
+    object-fit: cover;
+    width: 80px;
+}
+.wrapper .box3 .tooltip3{
+    visibility: hidden;
+    width: 120px;
+    background-color: #27333f ;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0; 
+    /* Position the tooltip */
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.wrapper .box3 .img:hover .tooltip{
+    visibility: visible;
+  }
+/* Wrapper 4*/
+ .wrapper .box4{
+    width: 80px;
+    height: 80px;
+    background-color: #27333f;
+    border-radius: 15px;
+    opacity: 25%;
+}
+.wrapper .box4 img{
+    object-fit: cover;
+    width: 80px;
+}
+
+.wrapper .box4 .tooltip4{
+    visibility: hidden;
+    width: 120px;
+    background-color: #27333f ;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0; 
+    /* Position the tooltip */
+    position: absolute;
+
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.wrapper .box4 .img:hover .tooltip4{
+    visibility: visible;
+  }
+section{
+    width: 100%;
+    transform: translateY(-80%);
+}
+

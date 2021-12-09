@@ -1,0 +1,464 @@
+
+body{
+    overflow-x: hidden;
+    background-color:#030303;
+    overflow-y: hidden;
+    
+}
+nav{
+    padding-left: 15%;
+    display: inline-flex;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Y-andermo';
+}
+nav p{
+    padding-left: 10px;
+    margin-right: 10px;
+}/*WRAPPER*/
+.wrapper{
+    padding-bottom: 2%;
+    transform: translate(2%, 150%);
+}
+.wrapper .box1{
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    background-color:#212a33;
+    opacity: 25%;
+}
+.wrapper .box1 img{
+    object-fit: cover;
+    width: 90px;
+    margin-left: -5px;
+}
+/* Wrapper 2*/
+.wrapper .box2{
+    width: 80px;
+    height: 80px;
+    background-color: #27333f;
+    border-radius: 15px;
+}
+.wrapper .box2 img{
+    object-fit: cover;
+    width: 80px;
+}
+.wrapper .box2 .tooltip2{
+    visibility: hidden;
+    width: 120px;
+    background-color: #27333f ;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0; 
+    /* Position the tooltip */
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.wrapper .box2 .img:hover .tooltip{
+    visibility: visible;
+  }
+
+/* Wrapper 3*/
+
+.wrapper .box3{
+    width: 80px;
+    height: 80px;
+    background-color: #27333f;
+    border-radius: 15px;
+    opacity: 25%;
+}
+ .wrapper .box3 img {
+    object-fit: cover;
+    width: 80px;
+}
+.wrapper .box3 .tooltip3{
+    visibility: hidden;
+    width: 120px;
+    background-color: #27333f ;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0; 
+    /* Position the tooltip */
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.wrapper .box3 .img:hover .tooltip{
+    visibility: visible;
+  }
+
+
+
+/* Wrapper 4*/
+ .wrapper .box4{
+    width: 80px;
+    height: 80px;
+    background-color: #27333f;
+    border-radius: 15px;
+    opacity: 25%;
+}
+.wrapper .box4 img{
+    object-fit: cover;
+    width: 80px;
+}
+
+.wrapper .box4 .tooltip4{
+    visibility: hidden;
+    width: 120px;
+    background-color: #27333f ;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0; 
+    /* Position the tooltip */
+    position: absolute;
+
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.wrapper .box4 .img:hover .tooltip4{
+    visibility: visible;
+  }
+
+section{
+    transform: translate(20%,0%);
+}
+
+    /* Progress box */
+.topbox{
+    transform: translate(10%, -90%);
+}
+.firstbox{
+    width: 350px;
+    height: 170px;
+    background-color: #3299CC;
+    transform: translate(85%, 25%);
+    border-radius: 15px;
+}
+.firstbox .fbhead{
+    display: inline-block;
+    width: 340px;
+    height: 50px;
+}
+.firstbox h2{
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 18px;
+    padding-top: 10px;
+    font-size: 25px;
+    margin-top: 5px;
+}
+.firstbox .pics{
+    display: inline-block;
+    width: 340px;
+    height: 75px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.progress{
+    width: 100%;
+    height: 20px;
+    display: inline-block;
+}
+.progress .pr1{
+    background-color: #59db5a;
+    width: 20%;
+    height: 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.progress .pr2{
+    background-color: #59db5a;
+    width: 20%;
+    height: 10px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: -10px;
+}
+.progress .pr31{
+    background-color: #283034;
+    width: 20%;
+    height: 10px;
+    border-radius: 10px;
+    margin-left: 178px;
+    margin-top: -10px;
+}
+.progress .pr31 .pr3{
+    background-color: #59db5a;
+    width: 84%;
+    height: 10px;
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-top: -10px;
+}
+.progress .pr41{
+    background-color: #283034;
+    width: 20%;
+    height: 10px;
+    border-radius: 10px;
+    margin-left: 255px;
+    margin-top: -10px;
+}
+.progress .pr41 .pr4{
+    background-color: #59db5a;
+    width: 84%;
+    height: 10px;
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-top: -10px;
+}
+
+.secondbox{
+    width: 350px;
+    height: 170px;
+    background-color: #7266d7;
+    transform: translate(220%, -84%);
+    border-radius: 15px;
+}
+.secondbox p{
+    font-size: 15px;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    padding-top: 25px;
+    padding-right: 30%;
+    margin-left: 10px;
+}
+.secondbox .p2{
+    margin-left: 44px;
+    font-size: 25px;
+    padding-top: 10px;
+    height: 50px;
+    width: 75%;
+}
+.secondbox .p3{
+    font-size: 10px;
+    margin-top: -30px;
+    margin-left: 60px;
+    width: 80%;
+    color: #a9a7a7;
+
+}
+.thirdbox{
+    width: 350px;
+    height: 170px;
+    background-color: #070f16;
+    transform: translate(360%, -184%);
+    border-radius: 15px;
+    background-image: url('img/codesign.png');
+}
+
+    /* Qualification Box */
+
+.bigbox{
+    transform: translate(15%,-65%);
+}
+.frontend{
+    display: inline-block;
+    width: 450px;
+    height: 350px;
+    background-color: #27333f;
+    border-radius: 10px;
+
+}
+.frontend .title1{
+    width: 30%;
+    margin: 10px;
+    background-color: #5e7e8e;
+    height: 10%;
+    border-radius: 8px;
+
+}
+.frontend .title1 p{
+    font-family: 'Roboto';
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 7px;
+    
+}
+.frontend .title2{
+    width: 30%;
+    margin: 10px;
+    background-color: #5e7e8e;
+    height: 10%;
+    border-radius: 8px;
+    transform: translate(145px, -54px);
+}
+.frontend .title2 p{
+    font-family: 'Roboto';
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 7px;
+}
+.frontend h1{
+    margin: -12% 5%;
+    font-family: 'Shippori Antique', sans-serif;
+    color: aliceblue;
+}
+.frontend h6{
+    color: #f16529;
+    font-family: 'Shippori Antique';
+    font-size: 13px;
+    float: right;
+    margin-right: 22px;
+    margin-top: 15px;
+}
+.frontend p{
+    font-family: 'Shippori Antique', sans-serif;
+    color: aliceblue;
+    margin: 14% 5%;
+}
+.frontend .progressbar{
+    background-color: #59db5a;
+    width: 90%;
+    height: 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: -30px;
+
+}
+    /* Back End */
+
+.backend{
+    width: 450px;
+    height: 350px;
+    background-color: #27333f;
+    border-radius: 10px;
+    transform: translate(125%, -105%);
+}
+
+.backend .title1{
+    width: 30%;
+    margin: 10px;
+    background-color: #5e7e8e;
+    height: 10%;
+    border-radius: 8px;
+    transform: translateY(10px);
+}
+.backend .title1 p{
+    font-family: 'Roboto';
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+
+    transform: translateY(10px);
+    
+}
+.backend .title2{
+    width: 30%;
+    margin: 10px;
+    background-color: #5e7e8e;
+    height: 10%;
+    border-radius: 8px;
+    transform: translate(145px, -45px);
+}
+.backend  .title2 p{
+    font-family: 'Roboto';
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 7px;
+}
+.backend h1{
+    margin: -11% 5%;
+    font-family: 'Shippori Antique', sans-serif;
+    color: aliceblue;
+}
+.backend h6{
+    color: #f16529;
+    font-family: 'Shippori Antique';
+    font-size: 13px;
+    float: right;
+    margin-right: 22px;
+    margin-top: 15px;
+}
+.backend p{
+    font-family: 'Shippori Antique', sans-serif;
+    color: aliceblue;
+    margin: 14% 5%;
+}
+.backend .progressbar{
+    background-color: #59db5a;
+    width: 90%;
+    height: 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: -30px;
+
+}
+
+    /* App Dev */
+.appdev{
+    width: 450px;
+    height: 350px;
+    background-color: #27333f;
+    border-radius: 10px;
+    transform: translate(250%, -210%);
+}
+.appdev .title1{
+    width: 30%;
+    margin: 10px;
+    background-color: #5e7e8e;
+    height: 10%;
+    border-radius: 8px;
+    transform: translateY(10px);
+}
+.appdev .title1 p{
+    font-family: 'Roboto';
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+
+    transform: translateY(10px);
+    
+}
+.appdev .title2{
+    width: 30%;
+    margin: 10px;
+    background-color: #5e7e8e;
+    height: 10%;
+    border-radius: 8px;
+    transform: translate(145px, -44px);
+}
+.appdev  .title2 p{
+    font-family: 'Roboto';
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 7px;
+}
+.appdev h1{
+    margin: -11% 5%;
+    font-family: 'Shippori Antique', sans-serif;
+    color: aliceblue;
+}
+.appdev h6{
+    color: #4eacda;
+    font-family: 'Shippori Antique';
+    font-size: 13px;
+    float: right;
+    margin-right: 22px;
+    margin-top: 15px;
+}
+.appdev p{
+    font-family: 'Shippori Antique', sans-serif;
+    color: aliceblue;
+    margin: 14% 5%;
+}
+.appdev .progressbar{
+    background-color: #59db5a;
+    width: 90%;
+    height: 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: -30px;
+
+}
